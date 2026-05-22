@@ -9,8 +9,15 @@
     "name":"Default",
   },
   "defaultScriptType":0,
-  "Folders":[],
-  "ForcedPrefabProjectReferences":[],
+  "Folders":[
+    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Roms","folderPath":"folders/Roms.yy","name":"Roms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
+  ],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -19,12 +26,19 @@
   },
   "name":"Ludicgame",
   "resources":[
+    {"id":{"name":"Title","path":"fonts/Title/Title.yy",},},
+    {"id":{"name":"Obj_buttons_Quit","path":"objects/Obj_buttons_Quit/Obj_buttons_Quit.yy",},},
+    {"id":{"name":"Obj_buttons","path":"objects/Obj_buttons/Obj_buttons.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"Botton_quit","path":"sprites/Botton_quit/Botton_quit.yy",},},
+    {"id":{"name":"Button_play","path":"sprites/Button_play/Button_play.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
