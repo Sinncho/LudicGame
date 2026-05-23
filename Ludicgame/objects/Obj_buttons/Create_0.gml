@@ -3,4 +3,4 @@ image_speed = 0;
 image_index = 0;
 
 // Variable para definir el destino (puedes cambiarla desde el editor de salas)
-target_room = Room2
+target_room = rm_cinematica

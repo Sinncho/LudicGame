@@ -16,7 +16,7 @@ if (fade_state == "fading_out") {
             sprite_index = panels[current_panel]; // Change sprite
             fade_state = "fading_in";             // Start revealing it
         } else {
-            room_goto(rm_siguiente_nivel);        // End of cutscene
+            room_goto(rm_mezclador);        // End of cutscene
         }
     }
 }

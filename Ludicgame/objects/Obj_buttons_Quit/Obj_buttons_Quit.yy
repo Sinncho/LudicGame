@@ -9,8 +9,8 @@
   "name":"Obj_buttons_Quit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Obj_menu",
+    "path":"folders/Objects/Obj_menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
