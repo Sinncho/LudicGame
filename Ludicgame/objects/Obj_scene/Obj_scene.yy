@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_buttons_Quit",
+  "%Name":"Obj_scene",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_buttons_Quit",
+  "name":"Obj_scene",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obj_menu",
-    "path":"folders/Objects/Obj_menu.yy",
+    "name":"Obj_cinematicas",
+    "path":"folders/Objects/Obj_cinematicas.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Botton_quit",
-    "path":"sprites/Botton_quit/Botton_quit.yy",
+    "name":"spr_manga_panel1",
+    "path":"sprites/spr_manga_panel1/spr_manga_panel1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

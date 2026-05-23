@@ -120,6 +120,6 @@
     "name":"Default",
     "path":"texturegroups/Default",
   },
-  "TTFName":"Z:\\home\\sinncho\\GameMakerProjects\\LudicGame\\Ludicgame\\fonts\\Title\\MyUglyHandwriting-Regular.otf",
+  "TTFName":null,
   "usesSDF":true,
 }
