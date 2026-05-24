@@ -63,6 +63,10 @@ else if (room != rm_menuPrincipal && room != rm_game_over) {
 		case Rm_Trineo:
 			tiempo_base_segundos = 8;
 			break;
+		
+		case rm_queso:
+			tkempo_base_segundos = 10;
+			break;
     }
     
     // 3. Aplicamos la velocidad actual del juego al tiempo elegido
