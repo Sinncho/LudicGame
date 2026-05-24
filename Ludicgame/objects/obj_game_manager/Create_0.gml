@@ -12,7 +12,7 @@ global.dificultad = "Easy";
 
 // LISTA TOTAL DE MINIJUEGOS: Aquí pones todas las rooms de tu juego.
 // Como ya no se borran, esta lista se queda fija para siempre.
-global.lista_minijuegos = [RM_carroCHI, rm_tarahumaraCorriendo, Rm_Trineo]; 
+global.lista_minijuegos = [rm_manzana, RM_carroCHI, Rm_Trineo, rm_tarahumaraCorriendo]; 
 
 global.lastRoom = noone;          // Para evitar que se repita el juego anterior
 global.minijuego_ganado = false;  
