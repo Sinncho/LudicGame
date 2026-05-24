@@ -4,18 +4,14 @@ depth = 0;
 y_inicial = 100;
 y = y_inicial;
 
-// Escala inicial
 escala = 0.2;
-
-// Velocidad de acercamiento
 velocidad = 3;
 
-// Posición horizontal: aleatoria DENTRO del carril en el horizonte
+// Posición horizontal aleatoria DENTRO del carril en el horizonte
 if (instance_exists(obj_lineas_fuga))
 {
     var lineas = obj_lineas_fuga;
     
-    // Rango en el horizonte (carril estrecho arriba)
     var izq_horizonte = lineas.fuga_x - lineas.ancho_horizonte + 10;
     var der_horizonte = lineas.fuga_x + lineas.ancho_horizonte - 10;
     
@@ -33,11 +29,9 @@ if (instance_exists(obj_lineas_fuga))
 }
 else
 {
-    // Fallback si no hay líneas de fuga
     x_inicial = room_width / 2;
     x = x_inicial;
     x_destino = x_inicial;
 }
 
-// Tamaño máximo
 tamano_base = 80;

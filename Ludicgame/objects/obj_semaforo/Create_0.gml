@@ -1,11 +1,14 @@
-// Estados del semáforo
-estado = "rojo";        // "rojo" o "verde"
+estado = "rojo";
 
-// Tiempo en rojo según dificultad (en segundos, asumiendo 60 fps)
-tiempo_rojo = 3 * 60;   // 3 segundos en modo fácil
+// Tiempo en rojo: 3 segundos, dividido por la velocidad del juego
+var segundos_rojo = 3;
 
-// Contador (cuenta hacia atrás)
+if (variable_global_exists("velocidad_juego"))
+{
+    segundos_rojo = 3 / global.velocidad_juego;
+}
+
+tiempo_rojo = segundos_rojo * 60;
 contador = tiempo_rojo;
 
-// Tamaño visual del semáforo
 tamano_luz = 40;

@@ -1,0 +1,1 @@
+global.minijuego_ganado = true;

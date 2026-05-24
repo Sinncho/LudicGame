@@ -1,3 +1,4 @@
+
 // Punto de fuga (donde convergen las líneas en el horizonte)
 fuga_x = room_width / 2;
 fuga_y = 100;

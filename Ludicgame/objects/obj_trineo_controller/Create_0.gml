@@ -1,13 +1,29 @@
-// Configuración del spawn de obstáculos
-velocidad_obs = 4;
-intervalo_spawn = 60;  // cada 1 segundo
+// Configuración base
+var velocidad_obs_base = 4;
+var intervalo_spawn_base = 60;
+
+// Escalar según dificultad
+if (variable_global_exists("velocidad_juego"))
+{
+    velocidad_obs = velocidad_obs_base * global.velocidad_juego;
+    intervalo_spawn = round(intervalo_spawn_base / global.velocidad_juego);
+}
+else
+{
+    velocidad_obs = velocidad_obs_base;
+    intervalo_spawn = intervalo_spawn_base;
+}
+
 contador_spawn = 0;
 
 // Estado del minijuego
 terminar = false;
 contador_fin = 0;
-duracion_fin = 45;
-
-// Por defecto, el jugador GANA si sobrevive (no choca)
-// El game_manager nos dará el tiempo automáticamente
-global.minijuego_ganado = true;
+if (variable_global_exists("velocidad_juego"))
+{
+    duracion_fin = round(45 / global.velocidad_juego);
+}
+else
+{
+    duracion_fin = 45;
+}         

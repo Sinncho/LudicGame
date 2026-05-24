@@ -14,7 +14,7 @@ if (instance_exists(obj_carro_controller))
 }
 
 // Detectar tecla espacio para pitar
-if (keyboard_check_pressed(vk_space))
+if (mouse_check_button_pressed(mb_left))
 {
     mostrando_pi = true;
     tiempo_pi = duracion_pi;

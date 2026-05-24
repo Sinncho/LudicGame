@@ -59,6 +59,10 @@ else if (room != rm_menuPrincipal && room != rm_game_over) {
         case rm_tarahumaraCorriendo:
             tiempo_base_segundos = 5; 
             break;
+			
+		case Rm_Trineo:
+			tiempo_base_segundos = 8;
+			break;
     }
     
     // 3. Aplicamos la velocidad actual del juego al tiempo elegido

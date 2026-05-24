@@ -18,7 +18,6 @@ progreso = clamp(progreso, 0, 1);
 escala = 0.2 + (progreso * 0.8);
 
 // X se interpola entre x_inicial (horizonte) y x_destino (base)
-// Esto hace que siga el ángulo del carril
 x = lerp(x_inicial, x_destino, progreso);
 
 // Detectar colisión con el trineo

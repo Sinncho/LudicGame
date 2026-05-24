@@ -1,3 +1,4 @@
+
 depth = 0;
 
 // Tamaño del trineo
