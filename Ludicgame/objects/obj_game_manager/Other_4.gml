@@ -1,8 +1,6 @@
 /// @description Controlar el flujo (Bolsa Infinita sin repetir dos veces)
 
-// CASO A: Estamos en el mezclador (Cinemáticas)
-
-show_debug_message(room)
+// CASO A: Estamos en el mezclador (Cinemáticas)show_debug_message(room)
 if (room == rm_mezclador) {
     
     alarm[1] = -1; // Apagar alarma del minijuego por seguridad
@@ -58,8 +56,8 @@ else if (room != rm_menuPrincipal && room != rm_game_over) {
     
     // 2. REGLA PERSONALIZADA POR ROOM:
     switch (room) {
-        case rm_minigame_test:
-            tiempo_base_segundos = 10; 
+        case rm_tarahumaraCorriendo:
+            tiempo_base_segundos = 5; 
             break;
     }
     
