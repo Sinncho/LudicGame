@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"disco_recibir_good",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"disco_recibir_good",
+  "parent":{
+    "name":"Obj_DiscadaCHI",
+    "path":"folders/Objects/Obj_DiscadaCHI.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
