@@ -1,31 +1,26 @@
-// Dibujar el carro amarillo
-draw_set_color(c_yellow);
-draw_rectangle(x, y, x + tamano, y + tamano, false);
+// Dibujar el sprite del carro
+draw_self();
 
-// Si está pitando, mostrar "¡PI!" arriba del carro
+// Si está pitando, mostrar burbuja "¡PI!" arriba a la derecha (donde está el carro jugador en la imagen)
 if (mostrando_pi)
 {
-    // Fondo blanco para el texto (como una burbuja de cómic)
-    var texto_x = x + (tamano / 2);
-    var texto_y = y - 50;
+    // Ajusta estos valores según dónde esté el carro jugador en tu sprite
+    var pi_x = 1100;
+    var pi_y = 350;
     
+    // Burbuja blanca con borde
     draw_set_color(c_white);
-    draw_rectangle(texto_x - 60, texto_y - 25, texto_x + 60, texto_y + 25, false);
-    
-    // Borde negro de la burbuja
+    draw_rectangle(pi_x - 60, pi_y - 25, pi_x + 60, pi_y + 25, false);
     draw_set_color(c_black);
-    draw_rectangle(texto_x - 60, texto_y - 25, texto_x + 60, texto_y + 25, true);
+    draw_rectangle(pi_x - 60, pi_y - 25, pi_x + 60, pi_y + 25, true);
     
-    // Texto "¡PI!" en negro y grande
+    // Texto
     draw_set_halign(fa_center);
     draw_set_valign(fa_middle);
     draw_set_color(c_black);
+    draw_text_transformed(pi_x, pi_y, "¡PI!", 3, 3, 0);
     
-    draw_text_transformed(texto_x, texto_y, "¡PI!", 3, 3, 0);
-    
-    // Resetear alineación
     draw_set_halign(fa_left);
     draw_set_valign(fa_top);
+    draw_set_color(c_white);
 }
-
-draw_set_color(c_white);

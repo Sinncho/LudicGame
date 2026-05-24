@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"Fondo",
   "bboxMode":0,
-  "bbox_bottom":0,
+  "bbox_bottom":862,
   "bbox_left":0,
-  "bbox_right":0,
+  "bbox_right":1379,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"93c6be8d-9e9e-4516-a1ac-52f420c1b295","name":"93c6be8d-9e9e-4516-a1ac-52f420c1b295","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ef8cc069-3a61-4156-871a-11e2f2303ed9","name":"ef8cc069-3a61-4156-871a-11e2f2303ed9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":863,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"1138c203-7ea8-46fe-bff7-d2fda191ff25","blendMode":0,"displayName":"default","isLocked":false,"name":"1138c203-7ea8-46fe-bff7-d2fda191ff25","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d8bfb1d9-096f-4e85-a072-9c13ecd5ecba","blendMode":0,"displayName":"default","isLocked":false,"name":"d8bfb1d9-096f-4e85-a072-9c13ecd5ecba","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Fondo",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"93c6be8d-9e9e-4516-a1ac-52f420c1b295","path":"sprites/Fondo/Fondo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3ad131fb-3026-4b50-b8ee-40a156de3525","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ef8cc069-3a61-4156-871a-11e2f2303ed9","path":"sprites/Fondo/Fondo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b09ea56e-3b79-4e32-be22-5e13f3599eb7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":1380,
 }

@@ -1,18 +1,14 @@
-// Dibujar fondo negro del semáforo
-draw_set_color(c_black);
-draw_rectangle(x - 5, y - 5, x + tamano_luz + 5, y + tamano_luz + 5, false);
-
-// Dibujar la luz según el estado
 if (estado == "rojo")
 {
+    // Dibujar luz roja (primera de izquierda a derecha en el semáforo)
     draw_set_color(c_red);
+    draw_circle(luz_x, luz_y, radio_luz, false);
 }
 else
 {
+    // Dibujar luz verde (tercera, la de más a la derecha)
     draw_set_color(c_lime);
+    draw_circle(luz_x + (separacion * 2), luz_y, radio_luz, false);
 }
 
-draw_rectangle(x, y, x + tamano_luz, y + tamano_luz, false);
-
-// Resetear color
 draw_set_color(c_white);

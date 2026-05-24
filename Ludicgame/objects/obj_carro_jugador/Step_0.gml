@@ -1,9 +1,8 @@
-// Si el input está bloqueado, no procesar la tecla espacio
+// Si el input está bloqueado, no procesar
 if (instance_exists(obj_carro_controller))
 {
     if (obj_carro_controller.bloquear_input)
     {
-        // Pero sí seguir bajando el contador del PI
         if (mostrando_pi)
         {
             tiempo_pi -= 1;
@@ -13,7 +12,7 @@ if (instance_exists(obj_carro_controller))
     }
 }
 
-// Detectar tecla espacio para pitar
+// Click izquierdo para pitar
 if (mouse_check_button_pressed(mb_left))
 {
     mostrando_pi = true;
@@ -23,6 +22,7 @@ if (mouse_check_button_pressed(mb_left))
     {
         if (obj_semaforo.estado == "rojo")
         {
+            // Pitó muy temprano = PIERDE
             global.minijuego_ganado = false;
             
             if (instance_exists(obj_carro_controller))
@@ -33,6 +33,7 @@ if (mouse_check_button_pressed(mb_left))
         }
         else
         {
+            // Pitó en verde = GANA
             global.minijuego_ganado = true;
             
             if (instance_exists(obj_carro_controller))
@@ -48,9 +49,5 @@ if (mouse_check_button_pressed(mb_left))
 if (mostrando_pi)
 {
     tiempo_pi -= 1;
-    
-    if (tiempo_pi <= 0)
-    {
-        mostrando_pi = false;
-    }
+    if (tiempo_pi <= 0) mostrando_pi = false;
 }

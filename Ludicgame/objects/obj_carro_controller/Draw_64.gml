@@ -1,4 +1,3 @@
-// Mostrar resultado cuando el minijuego termina
 if (terminar)
 {
     draw_set_halign(fa_center);
@@ -18,7 +17,6 @@ if (terminar)
         draw_text_transformed(centro_x, centro_y, "¡PERDISTE!", 6, 6, 0);
     }
     
-    // Resetear
     draw_set_halign(fa_left);
     draw_set_valign(fa_top);
     draw_set_color(c_white);

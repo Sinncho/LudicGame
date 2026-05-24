@@ -20,6 +20,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"69b76c17-c84a-45f0-9bb2-9bd4f9d6b928","blendMode":0,"displayName":"default","isLocked":false,"name":"69b76c17-c84a-45f0-9bb2-9bd4f9d6b928","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"0e931e5b-0098-41d1-ae04-49dd09e4a203","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"0e931e5b-0098-41d1-ae04-49dd09e4a203","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_arbol",
   "nineSlice":{

@@ -8,12 +8,14 @@
   "instanceCreationOrder":[
     {"name":"inst_2C007417","path":"rooms/rm_tarahumaraCorriendo/rm_tarahumaraCorriendo.yy",},
     {"name":"inst_761DD347","path":"rooms/rm_tarahumaraCorriendo/rm_tarahumaraCorriendo.yy",},
+    {"name":"inst_3FA9C36E","path":"rooms/rm_tarahumaraCorriendo/rm_tarahumaraCorriendo.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_761DD347","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_761DD347","objectId":{"name":"obj_meta","path":"objects/obj_meta/obj_meta.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.3962264,"scaleY":0.45846155,"x":1152.0,"y":352.0,},
         {"$GMRInstance":"v4","%Name":"inst_2C007417","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2C007417","objectId":{"name":"obj_corredor_atleta","path":"objects/obj_corredor_atleta/obj_corredor_atleta.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.50155765,"scaleY":0.5098468,"x":96.0,"y":448.0,},
+        {"$GMRInstance":"v4","%Name":"inst_3FA9C36E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3FA9C36E","objectId":{"name":"obj_bateria","path":"objects/obj_bateria/obj_bateria.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":96.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_762D6493","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_762D6493","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.49714285,"scaleY":0.4520548,"spriteId":{"name":"spr_fondo","path":"sprites/spr_fondo/spr_fondo.yy",},"x":0.0,"y":0.0,},
